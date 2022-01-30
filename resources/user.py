@@ -1,5 +1,5 @@
 from flask_restful import Resource, reqparse
-from models import UserModel
+from models.user import UserModel
 
 # class User(object):
 #     def __init__(self, _id, username, password):
