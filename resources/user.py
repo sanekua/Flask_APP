@@ -1,6 +1,5 @@
-import sqlite3
 from flask_restful import Resource, reqparse
-from models.user import UserModel
+from models import UserModel
 
 # class User(object):
 #     def __init__(self, _id, username, password):

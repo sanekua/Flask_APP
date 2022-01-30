@@ -1,7 +1,5 @@
-from flask import Flask, request
-from flask_restful import Resource, Api,reqparse
-from flask_jwt import JWT, jwt_required
-import sqlite3
+from flask_restful import Resource, reqparse
+from flask_jwt import jwt_required
 from models.item import ItemModel
 
 

@@ -5,8 +5,8 @@ from db import db
 
 from security import authenticate, identity
 from resources.user import UserRegister
-from resources.item import Item,ItemList
-from resources.store import StoreList, Store
+from resources import Item,ItemList
+from resources import StoreList, Store
 
 
 app = Flask(__name__)
