@@ -21,3 +21,4 @@ soupsieve==2.3.1
 SQLAlchemy==1.4.31
 urllib3==1.26.8
 Werkzeug==2.0.2
+uwsgi
